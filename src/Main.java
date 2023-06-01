@@ -2,16 +2,52 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        int intOperandA = 9;
+        int intOperandB = 2;
+        int intSum = 3;
+        int intProduct = 4;
+        int intDifference = 5;
+        int intQuotient = 6;
+        int intModulo = 7;
+        double doubleOperandA = 9.5;
+        double doubleOperandB = 2.2;
+        double doubleSum = 3.5;
+        double doubleProduct = 4.5;
+        double doubleDifference = 5.5;
+        double doubleQuotient = 6.5;
+        double doubleModulo = 7.5;
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+        intSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
+        intProduct = intOperandA * intOperandB; // Assignment that uses the arithmentic operator *
+        intDifference = intOperandA - intOperandB; // Assignment that uses the arithmentic operator -
+        intQuotient = intOperandA / intOperandB; // Assignment that uses the arithmentic operator /
+        intModulo = intOperandA % intOperandB; // Assignment that uses the arithmentic operator %
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+        System.out.println("The sum using ints of " + intOperandA + " and " + intOperandB +  " is " + intSum); // Output statement
+        System.out.println("The Product using ints of " + intOperandA + " and " + intOperandB +  " is " + intProduct); // Output statement
+        System.out.println("The Difference using ints of " + intOperandA + " and " + intOperandB +  " is " + intDifference); // Output statement
+        System.out.println("The Quotient using ints of " + intOperandA + " and " + intOperandB +  " is " + intQuotient); // Output statement
+        System.out.println("The Modulo using ints of " + intOperandA + " and " + intOperandB +  " is " + intModulo); // Output statement
+
+        doubleSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
+        doubleProduct = intOperandA * intOperandB; // Assignment that uses the arithmentic operator *
+        doubleDifference = intOperandA - intOperandB; // Assignment that uses the arithmentic operator -
+        doubleQuotient = intOperandA / intOperandB; // Assignment that uses the arithmentic operator /
+        doubleModulo = intOperandA % intOperandB; // Assignment that uses the arithmentic operator %
+
+        System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleSum); // Output statement
+        System.out.println("The Product using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleProduct); // Output statement
+        System.out.println("The Difference using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleDifference); // Output statement
+        System.out.println("The Quotient using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleQuotient); // Output statement
+        System.out.println("The Modulo using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleModulo); // Output statement
+
+        int numKids = 2;
+        boolean raining = false;
+        double gasPrice = 3.12;
+        int favNumber = 55;
+        int shoeSize = 12;
+        String birthMonth = "July";
+        String fullName = "Edward Anthony Barch V";
+
     }
 }
