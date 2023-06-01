@@ -29,13 +29,13 @@ public class Main {
         System.out.println("The Quotient using ints of " + intOperandA + " and " + intOperandB +  " is " + intQuotient); // Output statement
         System.out.println("The Modulo using ints of " + intOperandA + " and " + intOperandB +  " is " + intModulo); // Output statement
 
-        doubleSum = intOperandA + intOperandB; // Assignment that uses the arithmentic operator +
-        doubleProduct = intOperandA * intOperandB; // Assignment that uses the arithmentic operator *
-        doubleDifference = intOperandA - intOperandB; // Assignment that uses the arithmentic operator -
-        doubleQuotient = intOperandA / intOperandB; // Assignment that uses the arithmentic operator /
-        doubleModulo = intOperandA % intOperandB; // Assignment that uses the arithmentic operator %
+        doubleSum = doubleOperandA + doubleOperandB; // Assignment that uses the arithmentic operator +
+        doubleProduct = doubleOperandA * doubleOperandB; // Assignment that uses the arithmentic operator *
+        doubleDifference = doubleOperandA - doubleOperandB; // Assignment that uses the arithmentic operator -
+        doubleQuotient = doubleOperandA / doubleOperandB; // Assignment that uses the arithmentic operator /
+        doubleModulo = doubleOperandA % doubleOperandB; // Assignment that uses the arithmentic operator %
 
-        System.out.println("The sum using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleSum); // Output statement
+        System.out.println("\nThe sum using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleSum); // Output statement
         System.out.println("The Product using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleProduct); // Output statement
         System.out.println("The Difference using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleDifference); // Output statement
         System.out.println("The Quotient using doubles of " + doubleOperandA + " and " + doubleOperandB +  " is " + doubleQuotient); // Output statement
